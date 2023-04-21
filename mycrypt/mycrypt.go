@@ -19,7 +19,6 @@ func sokIAlfabetet(symbol rune, alfabet []rune) int {
 	for i := 0; i < len(alfabet); i++ {
 		if symbol == alfabet[i] {
 			return i
-			break
 		}
 	}
 	return -1
